@@ -1,0 +1,37 @@
+/*utility*/
+.floatright {
+    float: right;
+}
+.floatleft {
+    float: left;
+}
+/*structure*/
+header .container {
+    width: auto;
+    height: 100px;
+    background-color: rgb(100, 100, 100);
+}
+header .headerlogo {
+    width: 200px;
+    height: 80px;
+    background-color: rgb(150, 150, 150);
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+header nav {
+    float: left;
+    margin-left: 700px;
+    font-size: 30px;
+
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav li {
+    display: inline;
+}
+header nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
