@@ -80,6 +80,7 @@ section.herosection {
     background-color: rgb(150, 150, 150);
     margin: 0;
     padding: 0;
+    
     }
     .footer ul li {
         display: inline-block;
@@ -91,6 +92,7 @@ section.herosection {
     }
 footer a {
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
     section.herosection .button {
         width: 100px;
@@ -105,7 +107,6 @@ footer a {
         display: flex;
         justify-content: end;
         margin: -30px 10px -20px 0px;
-        position: fixed;
     }
 section.menu {
     background-color: rgb(225, 225, 225);
@@ -138,3 +139,6 @@ section.menu {
         font-style: italic;
         text-align: center;
     }
+section.catering {
+    margin-top: 100px;
+}
