@@ -7,6 +7,7 @@
 }
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*structure*/
 header .container {
@@ -45,34 +46,58 @@ section.herosection {
     margin-bottom: -16px;
     background-color: rgb(200, 200, 200);
 }
-section .heroimg {
+    section .heroimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: 300px;
     background-color: rgb(50, 50, 50);
-}
-.herocontent aside {
-    width: 31%;
-    height: 150px;
-    display: inline;
-    float: left;
+    }
+    .herocontent aside {
+        width: 31%;
+        height: 150px;
+        display: inline;
+        float: left;
+        background-color: rgb(150, 150, 150);
+        margin: 5px 5px 0px 15px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        text-align: center;
+    }
+    .herocontent aside a {
+        margin-top: ;
+        color: rgb(255, 255, 255);
+    }
+    .footer {
+    width: 100%;
+    height: 50px;
     background-color: rgb(150, 150, 150);
-    margin: 5px 5px 0px 15px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+    .footer ul li {
+        display: inline-block;
+        margin: 10px 20px 0px 10px;
+        
+    }
+    section.herosection a {
+        text-decoration: none;
+    }
+footer a {
+    text-decoration: none;
 }
-.footer {
-  width: 100%;
-  height: 50px;
-  background-color: rgb(150, 150, 150);
-  margin: 0;
-  padding: 0;
-}
-.footer ul li {
-    display: inline;
-    margin: 80px 20px 0px 130px;
-    
-}
+    section.herosection .button {
+        width: 100px;
+        height: 50px;
+        background-color: rgb(50, 50, 50);
+        margin: 0px 5px 0px 0px;
+        text-align: center;
+        display: inline-block;
+    }
+    footer .copyright {
+        float: right;
+        display: flex;
+        justify-content: end;
+        margin: -30px 10px -20px 0px;
+    }
