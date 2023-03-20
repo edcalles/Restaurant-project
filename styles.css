@@ -261,9 +261,11 @@ section.info {
         margin-left: 100px;
         padding: 0;
         width: 50%;
-
     }
     section.info { 
     height: 520px;
+    }
+    section.catering {
+        height: 400px;
     }
 }
