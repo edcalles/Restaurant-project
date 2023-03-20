@@ -141,4 +141,56 @@ section.menu {
     }
 section.catering {
     margin-top: 100px;
+    margin-bottom: -20px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(200, 200, 200);
+}
+    .cateringimg {
+        width: 27%;
+        height: 300px;
+        background-color: rgb(125, 125, 125);
+        margin-left: 10px;
+        margin-top: 150px;
+        float: left;
+    }
+    .cateringimg2 {
+        width: 27%;
+        height: 300px;
+        background-color: rgb(125, 125, 125);
+        margin-left: 40px;
+        margin-top: 150px;
+        float: left;
+    }
+    .cateringimg3 {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(125, 125, 125);
+    }
+    .form {
+        float: right;
+        margin-right: 150px;
+        margin-top: 150px;
+    }
+    .catering h1 {
+        float: right;
+    }
+    fieldset {
+        background-color: rgb(75, 75, 75);
+        border: 5px solid black;
+    }
+    legend {
+        font-size: large;
+        background-color: rgb(225, 225, 225);
+        padding: 5px 10px;
+    }
+section.info {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(225, 225, 225);
+    margin-bottom: -20px;
+}
+.info h1 {
+    text-align: center;
+    margin-top: 10px;
 }
