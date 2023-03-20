@@ -85,8 +85,8 @@ section.herosection {
         border-radius: 10px;
         text-align: center;
     }
-    .herocontent aside a {
-        color: rgb(255, 255, 255);
+    .herocontent aside button {
+        color: rgb(0,0,0);
     }
     .footer {
     width: 100%;
@@ -205,13 +205,13 @@ section.info {
     background-color: rgb(225, 225, 225);
     margin-bottom: -20px;
 }
-    .info h1 {
+    .info h2 {
         text-align: center;
         padding-top: 20px;
     }
     .info p {
         text-align: center;
     }
-    .info h2 {
+    .info h3 {
         text-align: center;
     }
