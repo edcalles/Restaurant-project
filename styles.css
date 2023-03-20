@@ -138,6 +138,7 @@ section.menu {
         font-family: 'roboto mono', monospace;
         font-style: italic;
         text-align: center;
+        padding-bottom: 10px;
     }
 section.catering {
     margin-top: 100px;
@@ -190,7 +191,13 @@ section.info {
     background-color: rgb(225, 225, 225);
     margin-bottom: -20px;
 }
-.info h1 {
-    text-align: center;
-    margin-top: 10px;
-}
+    .info h1 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .info p {
+        text-align: center;
+    }
+    .info h2 {
+        text-align: center;
+    }
